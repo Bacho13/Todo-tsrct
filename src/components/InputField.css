@@ -1,0 +1,44 @@
+.input {
+  width: 250px;
+  margin: 0 auto;
+}
+input {
+  width: 250px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  outline: 5px solid transparent;
+  padding-left: 15px;
+  font-size: 15px;
+}
+input:focus {
+  outline: 5px solid #487eb0;
+}
+.inputCont {
+  position: relative;
+  margin: 0 auto;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Input_submit {
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  position: absolute;
+  background-color: #487eb0;
+  cursor: pointer;
+  transition: all 0.3s;
+  right: 5px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  color: white;
+}
+.Input_submit:hover {
+  background-color: #40739e;
+}

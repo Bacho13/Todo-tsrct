@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+.heading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 25px;
+  color: #fff;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
